@@ -1,0 +1,8 @@
+<script>
+   const priceProduct = Number(prompt('Preço do produto?'))
+   const paymentDiscount = priceProduct - (priceProduct * 0.10)
+   const paymentInstallments = priceProduct / 3
+   
+   alert(`À vista R$ ${paymentDiscount.toFixed(2)}
+   Ou 3x de R$ ${paymentInstallments.toFixed(2)}` )
+</script>
